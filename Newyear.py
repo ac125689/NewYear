@@ -3,8 +3,9 @@ import streamlit as st
 def main():
     st.title('Home')
     name = st.text_input('Your Name: ')
+    name_cap = name.capitalize()
     if st.button('Click here'):
-        st.header(f'Happy New Year to {name.capitalize}.')
+        st.header(f'Happy New Year to {name_cap}.')
         st.balloons()
         st.snow()
         st.balloons()
