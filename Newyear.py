@@ -8,3 +8,6 @@ def main():
         st.balloons()
         st.snow()
         st.balloons()
+
+if __name__ == "__main__":
+  main()
