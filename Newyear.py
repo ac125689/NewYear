@@ -4,7 +4,7 @@ def main():
     st.title('Home')
     name = st.text_input('Your Name: ')
     if st.button('Click here'):
-        st.header(f'Happy New Year to {name}.')
+        st.header(f'Happy New Year to {name.capitalize}.')
         st.balloons()
         st.snow()
         st.balloons()
